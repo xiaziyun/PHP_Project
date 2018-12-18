@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>登录 - 葫芦娃卖书</title>
+		<link rel="stylesheet" href="__ROOT__/public/static/css/base.css">
+		<link rel="stylesheet" href="__ROOT__/public/static/css/login.css">
+	</head>
+
+	<body>
+		<!-- 页面顶部-->
+		<header id="top">
+			<div class="top">
+				<a href="index.html">
+					<img src="__ROOT__/public/static/img/header/logo.png">
+				</a>
+				<span>欢迎登录</span>
+			</div>
+		</header>
+		<div id="container">
+			<div id="cover" class="rt">
+				<form id="form-login" action="{:url('login/dologin')}" method="post">
+					<div class="txt">
+						<p>登录学子商城
+							<span><a href="register.html">新用户注册</a></span>
+						</p>
+						<div class="text">
+							<input type="text" placeholder="请输入您的用户名" name="email" id="email" required autofocus>
+							<span><img src="__ROOT__/public/static/img/login/yhm.png"></span>
+						</div>
+						<div class="text">
+							<input type="password" placeholder="请输入您的密码" name="passw" id="passw" required>
+							<span><img src="__ROOT__/public/static/img/login/mm.png"></span>
+						</div>
+						<div class="chose">
+							<input type="checkbox" class="checkbox" id="ck_rmbUser" value="0">自动登录
+						</div>
+						<input class="button_login" type="submit" value="登录" id="bt-login">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		
+		<div class="footer" id="footer"></div>
+		<script src="__ROOT__/public/static/js/jquery-3.1.1.min.js"></script>
+		<script src="__ROOT__/public/static/js/base.js"></script>
+		<script src="__ROOT__/public/static/js/login.js"></script>
+	</body>
+
+</html>

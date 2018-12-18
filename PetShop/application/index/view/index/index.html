@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>首页 — 葫芦娃卖书</title>
+		<link rel="icon" href="__ROOT__/public/static/img/favicon.ico">
+		<link rel="stylesheet" href="__ROOT__/public/static/css/base.css">
+		<link rel="stylesheet" href="__ROOT__/public/static/css/animate.css">
+		<link rel="stylesheet" href="__ROOT__/public/static/css/item_cat.css">
+		<link rel="stylesheet" href="__ROOT__/public/static/css/slide.css">
+		<link rel="stylesheet" href="__ROOT__/public/static/css/banner.css"/>
+		<link rel="stylesheet" href="__ROOT__/public/static/css/left.css">
+	</head>
+	{include  file="./public/common/header.html"/}
+	<body>
+		<!--header部分，由js动态加载-->
+		<div class="header" id="header"></div>
+		<!--banner部分-->
+		<div class="box" id="box">
+	        <ul id="inner-box">
+	            <li><img src="__ROOT__/public/static/img/banner/banner1.png"></li>
+	            <li><img src="__ROOT__/public/static/img/banner/banner2.png"></li>
+	            <li><img src="__ROOT__/public/static/img/banner/banner3.png"></li>
+	            <li><img src="__ROOT__/public/static/img/banner/banner4.png"></li>
+	            <li><img src="__ROOT__/public/static/img/banner/banner5.png"></li>
+	        </ul>
+	        <ol id="ol">
+	            <li></li>
+	            <li></li>
+	            <li></li>
+	            <li></li>
+	        </ol>
+	        <div class="btn">
+	            <span class="left" id="left"><</span>
+	            <span class="right" id="right">></span>
+	        </div>
+	    </div>
+	    <div class="content">
+	    <div class="left">
+		{include  file="./public/common/left.html"/}
+		</div>
+		</div>
+		<!--/*楼梯1f*/-->
+		<div class="floor" id="f1">
+			<div class="floor_top">
+				<img src="__ROOT__/public/static/img/header/search.png" alt=""> 首页推荐 /1F
+			</div>
+			<div class="floor_content">
+				<div>
+					<div class="desc">
+						<p class="name" id="name1"></p>
+						<p class="details" id="details1"></p>
+						<p class="price" id="price1"></p>
+						<a href="product_details.html" class="view" target="_blank">查看详情</a>
+					</div>
+					<img id="img1">
+				</div>
+				<div>
+					<img id="img2">
+					<div class="desc">
+						<p class="name" id="name2"></p>
+						<p class="details" id="details2"></p>
+						<p class="price" id="price2"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+				</div>
+				<div>
+					<div class="desc">
+						<p class="name" id="name3"></p>
+						<p class="price" id="price3"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+					<img id="img3">
+				</div>
+				<div class="product ">
+					<img alt="" id="img4">
+					<h2 id="name4"></h2>
+					<p id="price4"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+				<div class="product ">
+					<img alt="" id="img5">
+					<h2 id="name5"></h2>
+					<p id="price5"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+				<div class="product ">
+					<img alt="" id="img6">
+					<h2 id="name6"></h2>
+					<p id="price6"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+			</div>
+		</div>
+
+		<!--楼梯2f-->
+		<div class="floor" id="f2">
+			<div class="floor_top">
+				<img src="__ROOT__/public/static/img/header/search.png" alt=""> 最新上架 /2F
+			</div>
+			<div class="floor_content">
+				<div>
+					<div class="desc">
+						<p class="name" id="name7"></p>
+						<p class="details" id="details7"></p>
+						<p class="price" id="price7"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+					<img id="img7">
+				</div>
+				<div>
+					<img id="img8">
+					<div class="desc">
+						<p class="name" id="name8"></p>
+						<p class="details" id="details8"></p>
+						<p class="price" id="price8"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+				</div>
+				<div>
+					<div class="desc" >
+						<p class="name" id="name9"></p>
+						<p class="price" id="price9"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+					<img id="img9">
+				</div>
+				<div class="product ">
+					<img alt="" id="img10">
+					<h2 id="name10"></h2>
+					<p id="price10"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+				<div class="product ">
+					<img alt="" id="img11">
+					<h2 id="name11"></h2>
+					<p id="price11"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+				<div class="product ">
+					<img alt="" id="img12">
+					<h2 id="name12"></h2>
+					<p id="price12"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+			</div>
+		</div>
+
+		<!--楼梯3f-->
+		<div class="floor" id="f3">
+			<div class="floor_top">
+				<img src="__ROOT__/public/static/img/header/search.png" alt=""> 热销单品 /3F
+			</div>
+			<div class="floor_content">
+				<div>
+					<div class="desc">
+						<p class="name" id="name13"></p>
+						<p class="details" id="details13"></p>
+						<p class="price" id="price13"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+					<img id="img13">
+				</div>
+				<div>
+					<img id="img14">
+					<div class="desc">
+						<p class="name" id="name14"></p>
+						<p class="details" id="details14"></p>
+						<p class="price" id="price14"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+				</div>
+				<div>
+					<div class="desc">
+						<p class="name" id="name15"></p>
+						<p class="price" id="price15"></p>
+						<a href="product_details.html" class="view"target="_blank">查看详情</a>
+					</div>
+					<img id="img15">
+				</div>
+				<div class="product ">
+					<img alt="" id="img16">
+					<h2 id="name16"></h2>
+					<p id="price16"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+				<div class="product ">
+					<img alt="" id="img17">
+					<h2 id="name17"></h2>
+					<p id="price17"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+				<div class="product ">
+					<img alt="" id="img18">
+					<h2 id="name18"></h2>
+					<p id="price18"></p>
+					<a href="product_details.html" class="view"target="_blank">查看详情</a>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer部分，由js动态加载-->
+		<div id="footer" class="footer"></div>
+		<script src="__ROOT__/public/static/js/jquery-3.1.1.min.js"></script>
+		<script src="__ROOT__/public/static/js/base.js"></script>
+		<script src="__ROOT__/public/static/js/slide.js"></script>
+		<script src="__ROOT__/public/static/js/index.js"></script>
+		<script type="text/javascript" src="__ROOT__/public/static/js/banner.js"></script>
+		<script>
+			$("#iii").click(function() {
+				location.href = "product_details.html";
+			})
+		</script>
+
+	</body>
+
+</html>
